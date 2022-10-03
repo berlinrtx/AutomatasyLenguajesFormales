@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css.css">
+    <title>Proyecto Automatas, P Berlin</title>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+    
+    <!--Nav-->
+    <nav class="navbar navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/src/img/logo_white.png" alt="" width="60" height="48" class="d-inline-block align-text-top">
+            Paul Berlin 9490-17-19846
+          </a>
+        </div>
+      </nav>
+
+      <!--fin Nav-->
+
+    <!--Grid-->
+    <div class="container">
+        <div class="row">
+            <div class="bloque col-xs-12 col-md-5">
+                <h2>Instrucciones</h2><p class="texto"> <br> Ingrese el archivo .txt que quiere analizar. <br></p>
+                <label for="file">Select a file:</label>
+                <input type="file" id="file" name="myfile">
+                <button type="button">Analizar</button>
+            </div>
+            <div class="bloque col-xs-12 col-md-6">
+                <h2>Instrucciones de uso</h2>
+                <p class="texto">
+                    Ingrese el archivo .txt que contenga info de la siguiente forma: <br>
+                    Q:{} <br>
+                    Σ:{a,b}<br>
+                    I:{A}<br>
+                    A:{B}<br>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bloque col-xs-12">
+                <h2>Salida de datos</h2>
+            </div>
+            <div class="bloque col-xs-12 col-md-3">
+                Q
+            </div>
+            <div class="bloque col-xs-12 col-md-3">
+                Σ
+            </div>
+            <div class="bloque col-xs-12 col-md-2">
+                I
+            </div>
+            <div class="bloque col-xs-12 col-md-3">
+                A
+            </div>
+        </div>
+        
+        
+    </div>
+
+
+    <!-- End Grid-->
+
+</body>
+</html>
