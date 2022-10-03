@@ -1,0 +1,2 @@
+# AutomatasyLenguajesFormales
+proeycto de automatas. 
